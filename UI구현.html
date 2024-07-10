@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI구현_권희연</title>
+
+  <link rel="stylesheet" href="UI구현.css">
+
+</head>
+
+<body class="container">
+
+  <h1>UI구현_권희연</h1>
+  <br><br><br>
+  
+  <table class="inputTable">
+    <tr>
+      <td>너비 :</td>
+      <td><input type="number" class="inputBox" id="width"> px</td>
+      <td>높이 :</td>
+      <td><input type="number" class="inputBox" id="height"> px</td>
+    </tr>
+
+    <tr>
+      <td>글자크기 :</td>
+      <td><input type="number" class="inputBox" id="fontSize"> px</td>
+      <td>굵기 :</td>
+      <td>보통 <input type="radio" name="fontWeight" class="fontWeight"> 굵게 <input type="radio" name="fontWeight" class="fontWeight"></td>
+    </tr>
+
+    <tr>
+      <td>글자색 :</td>
+      <td><input type="text" id="fontColor"></td>
+      <td>배경색 :</td>
+      <td><input type="text" id="backgroundColor"></td>
+    </tr>
+
+    <tr>
+      <td>가로정렬 :</td>
+      <td colspan="3">왼쪽 <input type="radio" name="rowAlign" class="rowAlign"> 가운데  <input type="radio" name="rowAlign" class="rowAlign"> 오른쪽 <input type="radio" name="rowAlign" class="rowAlign"></td>
+    </tr>
+
+    <tr>
+      <td>세로정렬 :</td>
+      <td colspan="3">위 <input type="radio" name="colAlign" class="colAlign"> 가운데 <input type="radio" name="colAlign" class="colAlign"> 아래 <input type="radio" name="colAlign" class="colAlign"></td>
+    </tr>
+
+    <tr>
+      <td>출력문자열 :</td>
+      <td colspan="3"><input type="text" class="outputString" id="outputString"></td>
+    </tr>
+
+    <tr class="apply">
+      <td colspan="4"><button id="applyButton">적용하기</button></td>
+    </tr>
+  </table>
+
+  <div>
+    <div id="box">
+      <div id="font"></div>
+    </div>
+  </div>
+
+  <script src="UI구현.js"></script>
+</body>
+
+</html>

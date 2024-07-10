@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputTable{
+  border: 1px solid black;
+  width: 600px;
+  height: 400px;
+  margin: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputTable td{
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+}
+
+.inputBox{
+  width: 80px;
+}
+
+.outputString{
+  width: 400px;
+}
+
+.apply{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.apply > td{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+#box{
+  border: 3px solid black;
+  
+  display: flex;
+}
